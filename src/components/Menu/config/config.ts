@@ -4,6 +4,8 @@ import {
   SwapIcon,
   SwapFillIcon,
   TrophyIcon,
+  EarnIcon,
+  EarnFillIcon,
   TrophyFillIcon,
   MoreIcon,
 } from '@pancakeswap/uikit'
@@ -50,23 +52,23 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
       //   type: DropdownMenuItemType.EXTERNAL_LINK,
       // },
     ],
-  } /* 
+  }, 
   {
-    label: t('Earn'),
-    href: '/farms',
+    label: t('Staking (Soon)'),
+    href: '/',
     icon: EarnIcon,
     fillIcon: EarnFillIcon,
     items: [
-      {
-        label: t('Farms'),
-        href: '/farms',
-      },
-      {
-        label: t('Pools'),
-        href: '/pools',
-      },
+      // {
+      //   label: t('Farms'),
+      //   href: '/farms',
+      // },
+      // {
+      //   label: t('Pools'),
+      //   href: '/pools',
+      // },
     ],
-  }, */,
+  },
   // {
   //   label: t('Earn'),
   //   href: '#',

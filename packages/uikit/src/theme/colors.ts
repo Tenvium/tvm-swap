@@ -23,7 +23,7 @@ export const lightColors: Colors = {
   ...additionalColors,
   secondary: "#3330E4",
   background: "#242736",
-  backgroundDisabled: "#3c3742",
+  backgroundDisabled: "#3B9A9C",
   backgroundAlt: "#1a1c27",
   backgroundAlt2: "#",
   cardBorder: "rgba(0, 0, 0, 0)",
@@ -36,7 +36,7 @@ export const lightColors: Colors = {
   primaryDark: "#0098A1",
   tertiary: "#353547",
   text: "#F4EEFF",
-  textDisabled: "#666171",
+  textDisabled: "#FEF4A9",
   textSubtle: "#B8ADD2",
   disabled: "#524B63",
   gradients: {
@@ -54,8 +54,8 @@ export const darkColors: Colors = {
   ...baseColors,
   ...additionalColors,
   secondary: "#3330E4",
-  background: "#242736",
-  backgroundDisabled: "#3c3742",
+  background: "#16213E",
+  backgroundDisabled: "#3B9A9C",
   backgroundAlt: "#1a1c27", //
   backgroundAlt2: "#",
   cardBorder: "#383241",
@@ -68,7 +68,7 @@ export const darkColors: Colors = {
   primaryDark: "#0098A1",
   tertiary: "#353547",
   text: "#F4EEFF",
-  textDisabled: "#666171",
+  textDisabled: "#FEF4A9",
   textSubtle: "#B8ADD2",
   disabled: "#524B63",
   gradients: {
