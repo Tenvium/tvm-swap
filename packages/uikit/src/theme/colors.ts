@@ -23,7 +23,7 @@ export const lightColors: Colors = {
   ...additionalColors,
   secondary: "#3330E4",
   background: "#242736",
-  backgroundDisabled: "#3B9A9C",
+  backgroundDisabled: "#2C3E50",
   backgroundAlt: "#1a1c27",
   backgroundAlt2: "#",
   cardBorder: "rgba(0, 0, 0, 0)",
@@ -55,7 +55,7 @@ export const darkColors: Colors = {
   ...additionalColors,
   secondary: "#3330E4",
   background: "#16213E",
-  backgroundDisabled: "#3B9A9C",
+  backgroundDisabled: "#2C3E50",
   backgroundAlt: "#1a1c27", //
   backgroundAlt2: "#",
   cardBorder: "#383241",

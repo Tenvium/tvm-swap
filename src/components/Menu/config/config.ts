@@ -55,7 +55,7 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
   }, 
   {
     label: t('Staking (Soon)'),
-    href: '/',
+    href: '/#',
     icon: EarnIcon,
     fillIcon: EarnFillIcon,
     items: [
