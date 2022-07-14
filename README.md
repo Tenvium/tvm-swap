@@ -1,6 +1,6 @@
-#TVM Swap
+# TVM Swap
 
-##🥞 Forked from Pancake Frontend
+## 🥞 Forked from Pancake Frontend
 
 This project contains the main features of the pancake application.
 
