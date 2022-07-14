@@ -17,6 +17,11 @@ If you want to contribute, please refer to the [contributing guidelines](./CONTR
 git clone https://github.com/Tenvium/tvm-swap.git
 ```
 
+### Go to your project
+```
+cd tvm-swap
+```
+
 ### Install dependencies
 ```
 yarn
