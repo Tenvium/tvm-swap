@@ -34,14 +34,6 @@ const config: (t: ContextApi['t'], code: string) => ConfigMenuItemsType[] = (t, 
         label: t('Swap'),
         href: '/swap',
       },
-      // {
-      //   label: t('Zap'),
-      //   href: 'https://sale.sharknado.io/#/zap',
-      // }
-      // {
-      //   label: t('Limit'),
-      //   href: '/limit-orders',
-      // }, 
       {
         label: t('Liquidity'),
         href: '/liquidity',
