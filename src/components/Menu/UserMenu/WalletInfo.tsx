@@ -19,10 +19,6 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowBnbBalance, onDismiss }) 
   const { t } = useTranslation()
   const { account } = useWeb3React()
   const { balance, fetchStatus } = useGetBnbBalance()
-  const { balance: sharkoBalance, fetchStatus: sharkoFetchStatus } = useTokenBalance(tokens.sharko.address)
-  const { balance: sharkolpBalance, fetchStatus: sharkolpFetchStatus } = useTokenBalance(tokens.sharkolp.address)
-  const { balance: seaBalance, fetchStatus: seaFetchStatus } = useTokenBalance(tokens.sea.address)
-  const { balance: sssBalance, fetchStatus: sssFetchStatus } = useTokenBalance(tokens.sss.address)
   const { logout } = useAuth()
 
   const handleLogout = () => {
@@ -50,41 +46,6 @@ const WalletInfo: React.FC<WalletInfoProps> = ({ hasLowBnbBalance, onDismiss }) 
           <Skeleton height="22px" width="60px" />
         ) : (
           <Text>{formatBigNumber(balance, 6)}</Text>
-        )}
-      </Flex>
-      <Flex alignItems="center" justifyContent="space-between">
-        <Text color="textSubtle">{t('SHARKO Balance')}</Text>
-        {sharkoFetchStatus !== FetchStatus.Fetched ? (
-          <Skeleton height="22px" width="60px" />
-        ) : (
-          <Text>{getFullDisplayBalance(sharkoBalance, 18, 3)}</Text>
-        )}
-      </Flex>
-
-      <Flex alignItems="center" justifyContent="space-between">
-        <Text color="textSubtle">{t('SHARKO-LP Balance')}</Text>
-        {sharkolpFetchStatus !== FetchStatus.Fetched ? (
-          <Skeleton height="22px" width="60px" />
-        ) : (
-          <Text>{getFullDisplayBalance(sharkolpBalance, 18, 3)}</Text>
-        )}
-      </Flex>
-
-      <Flex alignItems="center" justifyContent="space-between">
-        <Text color="textSubtle">{t('SEA Balance')}</Text>
-        {seaFetchStatus !== FetchStatus.Fetched ? (
-          <Skeleton height="22px" width="60px" />
-        ) : (
-          <Text>{getFullDisplayBalance(seaBalance, 18, 3)}</Text>
-        )}
-      </Flex>
-
-      <Flex alignItems="center" justifyContent="space-between" mb="24px">
-        <Text color="textSubtle">{t('SSS Balance')}</Text>
-        {sssFetchStatus !== FetchStatus.Fetched ? (
-          <Skeleton height="22px" width="60px" />
-        ) : (
-          <Text>{getFullDisplayBalance(sssBalance, 18, 3)}</Text>
         )}
       </Flex>
 
