@@ -50,18 +50,18 @@ export const earnSectionData = (t: TranslateFunction): SalesSectionProps => ({
 })
 
 export const cakeSectionData = (t: TranslateFunction): SalesSectionProps => ({
-  headingText: t('SHARKO makes our world go round.'),
+  headingText: t('Tenvium makes our world go round.'),
   bodyText: t(
-    'SHARKO token is at the heart of the Sharknado ecosystem. Buy it, win it, farm it, spend it, stake it... heck, you can even vote with it!',
+    'TVM Chain',
   ),
   reverse: false,
   primaryButton: {
-    to: '/swap?outputCurrency=0x7e1d65ee360335fa119ee4b9708e47700efbfc58',
-    text: t('Buy SHARKO'),
+    to: '/swap?outputCurrency=0xe9e7CEA3DedcA5984780Bafc599bD69ADd087D56',
+    text: t('Buy TVM'),
     external: false,
   },
   secondaryButton: {
-    to: 'https://docs.sharknado.io',
+    to: 'https://docs.tenvium.network',
     text: t('Learn'),
     external: true,
   },

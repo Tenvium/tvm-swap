@@ -61,14 +61,14 @@ function MyApp(props: AppProps) {
         <meta name="twitter:image" content="logo.png" /> {/* #todo */}
         <meta
           name="twitter:description"
-          content="Built for the Starsharks community from the community. Hold SHARKO tokens to earn $SEA, win Sharks NFT and more..."
+          content="Tenvium Network"
         />
         <meta name="twitter:card" content="summary_large_image" />
         <meta
           name="twitter:title"
-          content="Sharknado - A next evolution Community-DAO token on BNB Smart Chain (BSC)"
+          content="Tenvium - A next evolution Community Blockchain in the world"
         />
-        <title>Sharknado</title>
+        <title>Tenvium</title>
       </Head>
       <Providers store={store}>
         <Blocklist>

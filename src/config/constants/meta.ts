@@ -2,11 +2,11 @@ import { ContextApi } from 'contexts/Localization/types'
 import { PageMeta } from './types'
 
 export const DEFAULT_META: PageMeta = {
-  title: 'Sharknado Coin (SHARKO)',
+  title: 'Tenvium Network',
   description:
-    'Built for the Starsharks community from the community. Hold SHARKO tokens to earn $SEA, win Sharks NFT & more...',
+    'Official DEXSwap for TVM Chain',
   image:
-    'https://raw.githubusercontent.com/SharknadoCoin/sharknado-brand/main/icon/new/0x7E1d65ee360335Fa119EE4B9708e47700EFBFc58.png',
+    'https://raw.githubusercontent.com/Tenvium/tvm-swap/9907d3a1cf6df927af794c07c86d98be5684b8b0/public/logo.png',
 }
 
 export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
@@ -34,110 +34,110 @@ export const getCustomMeta = (path: string, t: ContextApi['t']): PageMeta => {
   switch (basePath) {
     case '/':
       return {
-        title: `${t('Home')} | ${t('Sharknado Swap')}`,
+        title: `${t('Home')} | ${t('TVM Swap')}`,
       }
     case '/swap':
       return {
-        title: `${t('Exchange')} | ${t('Sharknado Swap')}`,
+        title: `${t('Exchange')} | ${t('TVM Swap')}`,
       }
     case '/add':
       return {
-        title: `${t('Add Liquidity')} | ${t('Sharknado Swap')}`,
+        title: `${t('Add Liquidity')} | ${t('TVM Swap')}`,
       }
     case '/remove':
       return {
-        title: `${t('Remove Liquidity')} | ${t('Sharknado Swap')}`,
+        title: `${t('Remove Liquidity')} | ${t('TVM Swap')}`,
       }
     case '/liquidity':
       return {
-        title: `${t('Liquidity')} | ${t('Sharknado Swap')}`,
+        title: `${t('Liquidity')} | ${t('TVM Swap')}`,
       }
     case '/find':
       return {
-        title: `${t('Import Pool')} | ${t('Sharknado Swap')}`,
+        title: `${t('Import Pool')} | ${t('TVM Swap')}`,
       }
     case '/competition':
       return {
-        title: `${t('Trading Battle')} | ${t('Sharknado Swap')}`,
+        title: `${t('Trading Battle')} | ${t('TVM Swap')}`,
       }
     case '/prediction':
       return {
-        title: `${t('Prediction')} | ${t('Sharknado Swap')}`,
+        title: `${t('Prediction')} | ${t('TVM Swap')}`,
       }
     case '/prediction/leaderboard':
       return {
-        title: `${t('Leaderboard')} | ${t('Sharknado Swap')}`,
+        title: `${t('Leaderboard')} | ${t('TVM Swap')}`,
       }
     case '/farms':
       return {
-        title: `${t('Farms')} | ${t('Sharknado Swap')}`,
+        title: `${t('Farms')} | ${t('TVM Swap')}`,
       }
     case '/farms/auction':
       return {
-        title: `${t('Farm Auctions')} | ${t('Sharknado Swap')}`,
+        title: `${t('Farm Auctions')} | ${t('TVM Swap')}`,
       }
     case '/pools':
       return {
-        title: `${t('Pools')} | ${t('Sharknado Swap')}`,
+        title: `${t('Pools')} | ${t('TVM Swap')}`,
       }
     case '/lottery':
       return {
-        title: `${t('Lottery')} | ${t('Sharknado Swap')}`,
+        title: `${t('Lottery')} | ${t('TVM Swap')}`,
       }
     case '/ifo':
       return {
-        title: `${t('Initial Farm Offering')} | ${t('Sharknado Swap')}`,
+        title: `${t('Initial Farm Offering')} | ${t('TVM Swap')}`,
       }
     case '/teams':
       return {
-        title: `${t('Leaderboard')} | ${t('Sharknado Swap')}`,
+        title: `${t('Leaderboard')} | ${t('TVM Swap')}`,
       }
     case '/voting':
       return {
-        title: `${t('Voting')} | ${t('Sharknado Swap')}`,
+        title: `${t('Voting')} | ${t('TVM Swap')}`,
       }
     case '/voting/proposal':
       return {
-        title: `${t('Proposals')} | ${t('Sharknado Swap')}`,
+        title: `${t('Proposals')} | ${t('TVM Swap')}`,
       }
     case '/voting/proposal/create':
       return {
-        title: `${t('Make a Proposal')} | ${t('Sharknado Swap')}`,
+        title: `${t('Make a Proposal')} | ${t('TVM Swap')}`,
       }
     case '/info':
       return {
-        title: `${t('Overview')} | ${t('Sharknado Info & Analytics')}`,
-        description: 'View statistics for Sharknado exchanges.',
+        title: `${t('Overview')} | ${t('TVM Info & Analytics')}`,
+        description: 'View statistics for TVM exchanges.',
       }
     case '/info/pools':
       return {
-        title: `${t('Pools')} | ${t('Sharknado Info & Analytics')}`,
-        description: 'View statistics for Sharknado exchanges.',
+        title: `${t('Pools')} | ${t('TVM Info & Analytics')}`,
+        description: 'View statistics for TVM exchanges.',
       }
     case '/info/tokens':
       return {
-        title: `${t('Tokens')} | ${t('Sharknado Info & Analytics')}`,
-        description: 'View statistics for Sharknado exchanges.',
+        title: `${t('Tokens')} | ${t('TVM Info & Analytics')}`,
+        description: 'View statistics for TVM exchanges.',
       }
     case '/nfts':
       return {
-        title: `${t('Overview')} | ${t('Sharknado')}`,
+        title: `${t('Overview')} | ${t('TVM')}`,
       }
     case '/nfts/collections':
       return {
-        title: `${t('Collections')} | ${t('Sharknado')}`,
+        title: `${t('Collections')} | ${t('TVM')}`,
       }
     case '/nfts/activity':
       return {
-        title: `${t('Activity')} | ${t('Sharknado')}`,
+        title: `${t('Activity')} | ${t('TVM')}`,
       }
     case '/nfts/profile':
       return {
-        title: `${t('Profile')} | ${t('Sharknado')}`,
+        title: `${t('Profile')} | ${t('TVM')}`,
       }
     case '/pancake-squad':
       return {
-        title: `${t('Pancake Squad')} | ${t('Sharknado')}`,
+        title: `${t('Pancake Squad')} | ${t('TVM')}`,
       }
     default:
       return null

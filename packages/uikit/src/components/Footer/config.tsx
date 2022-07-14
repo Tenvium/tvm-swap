@@ -5,7 +5,6 @@ import {
   TelegramIcon,
   InfoIcon,
   RedditIcon,
-  InstagramIcon,
   GithubIcon,
   DiscordIcon,
   MediumIcon,
@@ -89,32 +88,22 @@ export const socials = [
   {
     label: "Twitter",
     icon: TwitterIcon,
-    href: "http://twitter.com/sharknadocoin",
-  },
-  {
-    label: "Reddit",
-    icon: RedditIcon,
-    href: "https://reddit.com/r/sharknadocoin",
+    href: "http://twitter.com/TenviumNetwork",
   },
   {
     label: "Github",
     icon: GithubIcon,
-    href: "https://github.com/sharknadocoin/",
+    href: "https://github.com/Tenvium/",
   },
   {
-    label: "Discord",
-    icon: DiscordIcon,
-    href: "http://discord.sharknado.io",
-  },
-  {
-    label: "Medium",
-    icon: MediumIcon,
-    href: "https://sharknadocoin.medium.com/",
+    label: "Telegram",
+    icon: TelegramIcon,
+    href: "https://t.me/TenviumNetwork",
   },
   {
     label: "Docs",
     icon: InfoIcon,
-    href: "https://docs.sharknado.io",
+    href: "https://docs.tenvium.network",
   },
 ];
 
