@@ -1,8 +1,8 @@
 # TVM Swap
 
-## 🥞 Forked from Pancake Frontend
 
-This project contains the main features of the pancake application.
+
+This project forked from PancakeSwap. In the future we will change network to TVM Chain.
 
 If you want to contribute, please refer to the [contributing guidelines](./CONTRIBUTING.md) of this project.
 
@@ -15,6 +15,11 @@ If you want to contribute, please refer to the [contributing guidelines](./CONTR
 ### Clone this repository
 ```
 git clone https://github.com/Tenvium/tvm-swap.git
+```
+
+### Go to your project
+```
+cd tvm-swap
 ```
 
 ### Install dependencies
