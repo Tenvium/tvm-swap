@@ -3,10 +3,8 @@ import {
   DropdownMenuItemType,
   SwapIcon,
   SwapFillIcon,
-  TrophyIcon,
   EarnIcon,
   EarnFillIcon,
-  TrophyFillIcon,
   MoreIcon,
 } from '@pancakeswap/uikit'
 import { ContextApi } from 'contexts/Localization/types'

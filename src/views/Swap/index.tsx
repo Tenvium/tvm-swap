@@ -403,7 +403,7 @@ export default function Swap() {
             <StyledInputCurrencyWrapper mt={isChartExpanded ? '24px' : '0'}>
               <AppBody>
                 <CurrencyInputHeader
-                  title={t('Swap')}
+                  title={t('TVM Swap')}
                   subtitle={t('Trade tokens in an instant')}
                   setIsChartDisplayed={setIsChartDisplayed}
                   isChartDisplayed={isChartDisplayed}
@@ -496,7 +496,7 @@ export default function Swap() {
                           )}
                         </RowBetween>
                         <RowBetween align="center">
-                          <Label>{t('Slippage Tolerance')}</Label>
+                          <Label>{t('Slippage')}</Label>
                           <Text bold color="primary">
                             {allowedSlippage / 100}%
                           </Text>
